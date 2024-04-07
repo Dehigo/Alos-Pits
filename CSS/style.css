@@ -1,0 +1,12 @@
+#myModal {
+    animation-name: PopUp;
+    animation-duration: 0.5s;
+}
+
+@keyframes PopUp {
+    0% {overflow:hidden; top: -500px;}
+
+    100% {top: 0%;}
+
+
+}
