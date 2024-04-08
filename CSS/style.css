@@ -10,3 +10,43 @@
 
 
 }
+
+@media (max-width: 1500px) {
+    #mynavbar #texto {
+      display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    #mynavbar #InicioSesion {
+      margin-top: 20px;
+    }
+}
+
+
+
+#secreto {
+    display: inline-block;
+    width: 1px;
+    opacity: 0;
+}
+
+
+
+#Registro {
+    animation-name: PopUp;
+    animation-duration: 0.5s;
+}
+
+@keyframes PopUp {
+    0% {overflow:hidden; top: -500px;}
+
+    100% {top: 0%;}
+
+
+}
+
+footer {
+    max-width: 100% !important;
+    width: 100%;
+}

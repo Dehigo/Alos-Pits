@@ -3,3 +3,28 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+#myModal {
+    animation-name: PopUp;
+    animation-duration: 0.5s;
+}
+
+@keyframes PopUp {
+    0% {overflow:hidden; top: -500px;}
+
+    100% {top: 0%;}
+
+
+}
+
+#boton {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px
+}
+
+
+#hiddentext {
+    display: none;
+}
